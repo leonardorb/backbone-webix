@@ -15,6 +15,6 @@ requirejs.config({
   }
 });
 
-requirejs(['jquery', 'underscore', 'backbone', 'marionette', 'webix', 'init', 'json2'], function($, _, Backbone, Marionette, $$){
-  console.log($$);
+requirejs(['init'], function(){
+  console.log('loaded');
 });
